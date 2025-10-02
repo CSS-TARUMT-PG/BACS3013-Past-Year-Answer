@@ -2,12 +2,10 @@
 
 [Link to the paper](https://eprints.tarc.edu.my/33102/1/BACS3013.pdf)
 
-- [BACS3013 MAY 2025 Answers](#bacs3013-may-2025-answers)
-  - [Answers](#answers)
-    - [Question 1](#question-1)
-    - [Question 2](#question-2)
-    - [Question 3](#question-3)
-    - [Question 4](#question-4)
+- [Question 1](#question-1)
+- [Question 2](#question-2)
+- [Question 3](#question-3)
+- [Question 4](#question-4)
 
 ## Answers
 
@@ -144,3 +142,4 @@ ii) 2 common mistakes in data visualization, and how they can mislead analysis:
 
 - Choosing less appropriate chart types such as using a pie chart for features with many categories can make it difficult to compare the sizes of the slices accurately. This can mislead the analysis by obscuring important differences between categories.
 - Too much information in a single chart, such as overcrowding a line chart with too many lines representing different categories. This can lead to confusion and make it hard to discern individual trends, potentially leading to incorrect conclusions about the data.
+
