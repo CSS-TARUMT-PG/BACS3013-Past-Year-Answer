@@ -455,7 +455,7 @@
     - For every neuron, the output is calculated as $\text{output} = f(\sum (\text{input}_i \times \text{weight}_i) + \text{bias})$, where $f$ is the activation function.
   - Backpropagation: Errors are propagated back through the network to update weights using gradient descent.
     - Calculate the gradient of the loss function with respect to each weight.
-    - Update weights: $\text{weight} = \text{weight} - \text{learning\_rate} \times \text{gradient}$
+    - Update weights: $\text{weight} = \text{weight} - \text{learning rate} \times \text{gradient}$
 - Activation Functions
   - Sigmoid: $f(x) = \frac{1}{1 + e^{-x}}$, outputs values between 0 and 1.
   - ReLU (Rectified Linear Unit): $f(x) = \max(0, x)$, outputs values between 0 and infinity.
@@ -545,37 +545,37 @@
 # Chapter 6 Data Quality
 
 - Intrinsic (Quality inherent to the data itself)
-  - Accuracy: Correctness of data values.
+  - **Accuracy**: Correctness of data values.
     - Can be dependent on the context, such as date format (DD/MM/YYYY vs MM/DD/YYYY) in different regions.
-  - Believability: Trustworthiness of data source. (Credibility)
-  - Objectivity: Unbiased and impartial data.
-  - Reputation: Data source's standing in the community.
+  - **Believability**: Trustworthiness of data source. (Credibility)
+  - **Objectivity**: Unbiased and impartial data.
+  - **Reputation**: Data source's standing in the community.
 - Contextual (The context in which the data is used)
-  - Value-Added: Beneficial for their intended use.
-  - Completeness: Data values are present.
-    - Schema Completeness: All required fields and entities are present.
-    - Column Completeness: No missing values in a column.
-    - Population Completeness: Row completeness, all attributes of a row are present. (Special case: if a missing value is not applicable, it is not considered incomplete)
-  - Relevancy: Applicable to the task at hand.
-  - Appropriate Amount of Data: Sufficient data for analysis.
-  - Consistency: Uniformity of data across different sources.
-    - Redundancy: No duplicate records.
-    - Related attributes: Derived attributes are consistent with their base attributes. (Eg. Age and Date of Birth)
-    - Data format: Consistent data formats across the dataset. (Eg. Date format, Phone number format)
+  - **Value-Added**: Beneficial for their intended use.
+  - **Completeness**: Data values are present.
+    - _Schema Completeness_: All required fields and entities are present.
+    - _Column Completeness_: No missing values in a column.
+    - _Population Completeness_: Row completeness, all attributes of a row are present. (Special case: if a missing value is not applicable, it is not considered incomplete)
+  - **Relevancy**: Applicable to the task at hand.
+  - **Appropriate Amount of Data**: Sufficient data for analysis.
+  - **Consistency**: Uniformity of data across different sources.
+    - _Redundancy_: No duplicate records.
+    - _Related attributes_: Derived attributes are consistent with their base attributes. (Eg. Age and Date of Birth)
+    - _Data format_: Consistent data formats across the dataset. (Eg. Date format, Phone number format)
 - Representational (How data is formatted)
-  - Interpretability: In appropriate language and unit, clear definitions.
-  - Ease of Understanding: Clear and without ambiguity.
+  - **Interpretability**: In appropriate language and unit, clear definitions.
+  - **Ease of Understanding**: Clear and without ambiguity.
 - Accessibility (How easily data can be accessed)
-  - Accessibility: Available and obtainable.
+  - **Accessibility**: Available and obtainable.
     - Consider the time taken to access the data, to avoid delays in important decisions.
-  - Security: Restricted access to keep data safe.
+  - **Security**: Restricted access to keep data safe.
 
 ### Problems with Data Quality
 
-- Multiple Sources: Lack consistency due to different formats and standards
-- Subjective Judgment: Lack objectivity and believability
-- Limited computing facilities: Lack accessibility
-- Size of data: Lack accessibility due to slow retrieval times
+- **Multiple Sources**: Lack consistency due to different formats and standards
+- **Subjective Judgment**: Lack objectivity and believability
+- **Limited computing facilities**: Lack accessibility
+- **Size of data**: Lack accessibility due to slow retrieval times
 
 ### Improving Data Quality
 
@@ -589,7 +589,7 @@
 
 - Data can be collected without consent, or not aware of how it is used.
 - For example, credit risk modeling may uses information across multiple domains, such as financial history, social media activity, and personal demographics, for a more comprehensive assessment of an individual's creditworthiness. However, this raises concerns about privacy and data security, as individuals may not be aware of the extent of data being collected and how it is being used.
-- Quasi-identifiers: Attributes that can be combined to uniquely identify an individual, such as date of birth
+- **Quasi-identifiers**: Attributes that can be combined to uniquely identify an individual, such as date of birth
   - Can be used to re-identify anonymized data.
 
 ### Data Anonymization Techniques
